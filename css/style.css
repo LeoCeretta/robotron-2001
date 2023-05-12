@@ -20,6 +20,45 @@ body {
 body, input {
     font-family: 'Teko', sans-serif;
 }
+.color {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.button__color {
+    height: 16px;
+    width: 16px;
+    border: 2px black solid;
+    border-radius: 16px;
+}
+
+.Preto {
+    background-color: black;
+}
+
+.Azul {
+    background-color: blue;
+}
+
+.Rosa {
+    background-color: pink;
+}
+
+.Vermelho {
+    background-color: red;
+}
+
+.Branco {
+    background-color: white;
+}
+
+.Amarelo {
+    background-color: yellow;
+}
 
 main {
     width: 80vw;
@@ -147,7 +186,6 @@ main {
     background: var(--main-preto);
     color: var(--main-branco)
 }
-
 
 
 /****************************** Estatísticas *****/
